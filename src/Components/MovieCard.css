@@ -1,0 +1,38 @@
+  .category {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+
+  .gauge {
+    display: flex;
+    height: 20px;
+    margin: 8px 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  .likes {
+    background-color: #4caf50;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .dislikes {
+    background-color: #f44336;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+  }
+.likes >span{
+    margin-left: 10px;
+}
+.dislikes >span {
+    margin-right: 10px;
+}

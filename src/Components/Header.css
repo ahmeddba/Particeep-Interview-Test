@@ -1,0 +1,23 @@
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid black;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.head > img{
+    margin-left: 25px;
+}
+
+.head > h1 {
+    margin-left: 20%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+}

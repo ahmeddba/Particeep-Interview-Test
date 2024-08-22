@@ -1,0 +1,24 @@
+.contain{
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+    align-items: center;
+}
+.filter-container{
+    width: 80% !important;
+}
+.pag{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.bigCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
